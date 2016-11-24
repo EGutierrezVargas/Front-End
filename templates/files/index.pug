@@ -1,0 +1,13 @@
+extends extends/base
+
+block content
+    //Tu Codigo Html
+
+    H1 Hola Mundo
+    p  Herramienta para hacer templates para greycode(landings)
+    p #{main.string}
+
+    each value , index in main.usuarios
+
+        ul
+            li #{ 'id :' + value.id + ' : nombre -> ' + value.name}

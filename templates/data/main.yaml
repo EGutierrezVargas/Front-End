@@ -1,0 +1,41 @@
+---
+# http://yaml.org/type/map.html -----------------------------------------------#
+usuarios:
+  - name: Edinson
+    lastname: Gutierrez
+    id: 39467890
+
+  - name: Gerald
+    lastname: Gutierrez
+    id: 78694500
+
+  - name: Linet
+    lastname: Vargas
+    id: 38784520
+
+
+# http://yaml.org/type/bool.html ----------------------------------------------#
+bool:
+  - true
+  - false
+
+
+# http://yaml.org/type/float.html ---------------------------------------------#
+float: 6.852
+
+
+# http://yaml.org/type/int.html -----------------------------------------------#
+int: 685230
+
+
+# http://yaml.org/type/str.html -----------------------------------------------#
+string: >
+  Herramienta desarrollada para greycod3 por Edinson Gutierrez Vargas
+
+
+# http://yaml.org/type/timestamp.html -----------------------------------------#
+timestamp:
+  canonical: 2001-12-15T02:59:43.1Z
+
+
+title: Login Test
